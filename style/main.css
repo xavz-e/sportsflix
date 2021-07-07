@@ -1,0 +1,109 @@
+:root{
+    --preto: #141414;
+    --amarelo: #F7F61D;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+ /*elemetos base*/
+
+body{
+  background-color: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+    
+}
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ header .titulo{
+    color: var(--amarelo);
+    font-family:"Arial Black";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header nav a{
+    text-decoration: none;
+    color: azure;
+    padding-right: 30px;
+}
+
+header nav a:hover{
+    color:var(--amarelo) ;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capanike-sb.jpg);
+    
+    
+    height: 400px;
+    background-size: 400px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.titulo-principal{
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.filme-principal .descricao{
+    margin-bottom: 30px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 3px;
+    font-size: 12px; 
+
+    cursor: pointer;
+
+    transition: 1s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    padding: 7px;
+}
+
+.box-skate{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.titulomini{
+    text-align: center;
+    font-size: 60px;
+}
+
+.carrosel-skate{
+    margin-top: 5px;
+}
